@@ -1,4 +1,4 @@
-    
+   
 #!/bin/bash
 
 arr=($@)
@@ -22,8 +22,11 @@ read str2
 if test $str1 \> $str2
 then
 echo "first line is larger than the second line"
-else
-echo "second line is larger"
+elif test $str1 = $str2
+then
+	echo "lines are equal"
+else 
+	echo "second line is laregr"
 fi
 
 
