@@ -39,6 +39,13 @@ done
 for ((a=0; a < n; a++))
 do
 echo "File ${array[$a]} was deleted"
+if test -f ${array[$a]}
+then 
 rm "${array[$a]}"
+else 
+	echo "files was already deleted"
+	exit 0
+fi
 done
 rm file1
+
