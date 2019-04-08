@@ -13,4 +13,4 @@ do
   ((i++))
 done
 
-wget -r -k -l 7 -p -E -nc  -O sitename.tar https://store.steampowered.com/?l=russian
+wget -r -k -l 7 -p -E -nc  -O steam.zip https://store.steampowered.com/?l=russian
