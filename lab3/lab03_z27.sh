@@ -6,4 +6,4 @@ then
 	echo 
 	echo
 fi
-	sed 's/scarlet/red/g;s/ruby/back/g;s/back/white/g' file.txt 
+	sed 's/scarlet/red/g;s/ruby/back/g;s/puce/white/g' file.txt 
